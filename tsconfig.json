@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // 设置目标为 ES2020，支持 BigInt 和其他现代特性
+    "lib": ["esnext", "dom"],  // 包含 ES2020 标准库
+    "module": "ESNext", // 使用 ES 模块
+    "moduleResolution": "Node", // 模块解析方式
+    "strict": true, // 启用严格模式
+    "esModuleInterop": true, // 兼容 CommonJS 模块
+    "skipLibCheck": true // 跳过对 node_modules 的类型检查
+  }
+}

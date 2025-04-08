@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "viem": "^2.26.1"
   }
